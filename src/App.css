@@ -1,38 +1,111 @@
-.App {
+body {
+  font-family: 'Roboto', sans-serif; /* This sets the global font to Roboto */
+  color: #333; /* This sets the global font color to a dark grey */
+}
+
+#timercontroller {
   text-align: center;
+  background-color: #0d60e6;
+  color: white; /* Set the color of text to white for better contrast */
+  height: 100vh; /* Fill the vertical space */
+  display: flex;
+  flex-direction: column; /* Make the content vertical */
+  justify-content: center; /* Center the content vertically */
+  align-items: center; /* Center the content horizontally */
+  font-family: Arial, sans-serif; /* Set the font family */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header {
+  font-size: 4em; /* Make the header text larger */
+  margin-top: 1em; /* Add some space above the header */
+  margin-bottom: 0; /* Add some space below the header */
+  color: #FFF; /* White color for contrast */
+  font-weight: 500; /* Medium weight */
+  font-family: 'Tektur';
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#title-number{
+  color: #fff308;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+footer {
+  font-size: 1em; /* Set the font size for footer */
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #FFF; /* White color for contrast */
+  font-family: 'Tektur';
+}
+
+.length-control-container, #timerswitch {
+  display: flex;
+  justify-content: space-around; 
+  max-width: 800px;
+  width: 100%; 
+  margin: auto;
+  height: 20vh;
+  font-family: 'Handjet';
+}
+
+.length-control {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: 2em;
+}
+
+button {
+  background-color: #00f8be;
+  color: rgba(0, 0, 0, 0.7);
+  border: 2px solid #00f8be;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 25px;
+  box-shadow: 0px 8px 15px rgba(160, 0, 136, 0.1);
+  transition: all 0.3s ease 0s;
+  font-weight: 600; /* Light weight */
+}
+
+button:hover {
+  background-color: #00410e;
+  border-color: #00f8be;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
   color: white;
+  transform: translateY(-7px);
 }
 
-.App-link {
-  color: #61dafb;
+button:active {
+  border-color: #00f8be;
+  transform: scale(0.9); /* Make the button 90% of its original size when clicked */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#timer-label {
+  font-size: 2em;
+}
+
+/* Style the div that contains the time left */
+#time-left {
+  font-size: 3em; /* Make the text larger */
+  margin-top: 0.5em; /* Add some space at the top */
+  margin-bottom: 1em; /* Add some space at the bottom */
+  color: #FFF;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Tektur';
+  src: url('../fonts/Tektur/Tektur-VariableFont_wdth\,wght.woff2') format('woff2'),
+       url('../fonts/Tektur/Tektur-VariableFont_wdth\,wght.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Handjet';
+  src: url('../fonts/Handjet/Handjet-VariableFont_ELGR\,ELSH\,wght.woff2') format('woff2'),
+       url('../fonts/Handjet/Handjet-VariableFont_ELGR\,ELSH\,wght.woff') format('woff');
 }
