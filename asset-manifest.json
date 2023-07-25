@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/A-25plus5-Clock/static/css/main.94cd9d9d.css",
+    "main.js": "/A-25plus5-Clock/static/js/main.8f3980bb.js",
+    "static/js/787.5e11e82a.chunk.js": "/A-25plus5-Clock/static/js/787.5e11e82a.chunk.js",
+    "static/media/Handjet-VariableFont_ELGR,ELSH,wght.woff": "/A-25plus5-Clock/static/media/Handjet-VariableFont_ELGR,ELSH,wght.bb72bd421e2f22991a20.woff",
+    "static/media/Tektur-VariableFont_wdth,wght.woff2": "/A-25plus5-Clock/static/media/Tektur-VariableFont_wdth,wght.c2cffd1bcb3bd4e08c4c.woff2",
+    "static/media/Handjet-VariableFont_ELGR,ELSH,wght.woff2": "/A-25plus5-Clock/static/media/Handjet-VariableFont_ELGR,ELSH,wght.690f765593b56efbea63.woff2",
+    "static/media/Tektur-VariableFont_wdth,wght.woff": "/A-25plus5-Clock/static/media/Tektur-VariableFont_wdth,wght.79b69f0c8102bc85d533.woff",
+    "static/media/beep.mp3": "/A-25plus5-Clock/static/media/beep.40e5c7db2b65c3a9b088.mp3",
+    "index.html": "/A-25plus5-Clock/index.html",
+    "main.94cd9d9d.css.map": "/A-25plus5-Clock/static/css/main.94cd9d9d.css.map",
+    "main.8f3980bb.js.map": "/A-25plus5-Clock/static/js/main.8f3980bb.js.map",
+    "787.5e11e82a.chunk.js.map": "/A-25plus5-Clock/static/js/787.5e11e82a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.94cd9d9d.css",
+    "static/js/main.8f3980bb.js"
+  ]
+}
